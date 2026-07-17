@@ -1,5 +1,9 @@
 # Smruti
 "A beginner-friendly Python CLI application that stores, processes, and displays personal user data, featuring input validation, dynamic user interaction, and age-to-months calculations."
+
+
+
+
 #student grade calculator
 Conditional Logic (if/elif/else): Used inside get_grade() to dynamically bracket user averages into functional performance categories.
 
