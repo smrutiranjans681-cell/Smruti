@@ -1,0 +1,19 @@
+======================================================================
+TEST SUITE FOR PERSONAL INFORMATION MANAGER
+======================================================================
+
+--- TEST CASE 1: Standard Valid Inputs ---
+Expected Behavior: Program accepts inputs on first try and outputs the profile.
+• Favorite Food : Curry
+• Favorite Color: Black
+
+--- TEST CASE 2: Edge Case - Empty Input Handling ---
+Expected Behavior: Program catches empty spaces, throws a red error sign (❌), and re-prompts.
+• Favorite Food : [Press Enter key directly without typing]
+• Favorite Food (Retry): Noodles
+• Favorite Color: Green
+
+--- TEST CASE 3: Edge Case - Trailing Spaces ---
+Expected Behavior: Program strips out whitespace using string methods (.strip()) before formatting.
+• Favorite Food : "   pizza   "
+• Favorite Color: "  red  "
